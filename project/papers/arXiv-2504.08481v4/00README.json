@@ -1,0 +1,17 @@
+{
+   "sources" : [
+      {
+         "usage" : "toplevel",
+         "filename" : "new_preprint.tex"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "splncs04.bst"
+      }
+   ],
+   "version" : 2,
+   "texlive_version" : 2023,
+   "process" : {
+      "compiler" : "pdflatex"
+   }
+}

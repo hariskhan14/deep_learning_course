@@ -1,0 +1,99 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\providecommand{\doi}[1]{https://doi.org/#1}
+
+\bibitem{abnar2020quantifying}
+Abnar, S., Zuidema, W.: Quantifying attention flow in transformers. In: Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics. pp. 4190--4197 (Jul 2020)
+
+\bibitem{al2017recent}
+Al-Zamil, W.M., Yassin, S.A.: Recent developments in age-related macular degeneration: a review. Clinical interventions in aging pp. 1313--1330 (2017)
+
+\bibitem{azad2024advances}
+Azad, R., Kazerouni, A., Heidari, M., Aghdam, E.K., Molaei, A., Jia, Y., Jose, A., Roy, R., Merhof, D.: Advances in medical image analysis with vision transformers: a comprehensive review. Medical Image Analysis  \textbf{91},  103000 (2024)
+
+\bibitem{bach2015pixel}
+Bach, S., Binder, A., Montavon, G., Klauschen, F., M{\"u}ller, K.R., Samek, W.: On pixel-wise explanations for non-linear classifier decisions by layer-wise relevance propagation. PloS one  \textbf{10}(7),  e0130140 (2015)
+
+\bibitem{bibal2022attention}
+Bibal, A., Cardon, R., Alfter, D., Wilkens, R., Wang, X., Fran{\c{c}}ois, T., Watrin, P.: Is attention explanation? an introduction to the debate. In: Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). pp. 3889--3900 (2022)
+
+\bibitem{brendel2018bagnets}
+Brendel, W., Bethge, M.: Approximating cnns with bag-of-local-features models works surprisingly well on imagenet. International Conference on Learning Representations  (2019)
+
+\bibitem{chefer2021generic}
+Chefer, H., Gur, S., Wolf, L.: Generic attention-model explainability for interpreting bi-modal and encoder-decoder transformers. In: Proceedings of the IEEE/CVF International Conference on Computer Vision. pp. 397--406 (2021)
+
+\bibitem{chefer2021transformer}
+Chefer, H., Gur, S., Wolf, L.: Transformer interpretability beyond attention visualization. In: Proceedings of the IEEE/CVF conference on computer vision and pattern recognition. pp. 782--791 (2021)
+
+\bibitem{chen2025review}
+Chen, C., Isa, N.A.M., Liu, X.: A review of convolutional neural network based methods for medical image classification. Computers in Biology and Medicine  \textbf{185},  109507 (2025)
+
+\bibitem{djoumessi2025soft}
+Djoumessi, K., Berens, P.: Soft-cam: Making black box models self-explainable for high-stakes decisions. arXiv preprint arXiv:2505.17748  (2025)
+
+\bibitem{dosovitskiy2020image}
+Dosovitskiy, A., Beyer, L., Kolesnikov, A., Weissenborn, D., Zhai, X., Unterthiner, T., Dehghani, M., Minderer, M., Heigold, G., Gelly, S., Uszkoreit, J., Houlsby, N.: An image is worth 16x16 words: Transformers for image recognition at scale. In: 9th International Conference on Learning Representations, {ICLR} (2021)
+
+\bibitem{kaggle_dr_detection}
+Dugas, E., Jared, J., Cukierski, W.: Diabetic retinopathy detection (2015), \url{https://kaggle.com/competitions/diabetic-retinopathy-detection}
+
+\bibitem{study1999age}
+Group, A.R.E.D.S.R.: The age-related eye disease study (areds): Design implications areds report no. 1. Controlled clinical trials  \textbf{20}(6),  573--600 (1999)
+
+\bibitem{he2016deep}
+He, K., Zhang, X., Ren, S., Sun, J.: Deep residual learning for image recognition. In: Proceedings of the IEEE conference on computer vision and pattern recognition. pp. 770--778 (2016)
+
+\bibitem{ilyas2024hybrid}
+Ilyas, Z., Saleem, A., Suter, D., Schousboe, J.T., Leslie, W.D., Lewis, J.R., Gilani, S.Z.: A hybrid cnn-transformer feature pyramid network for granular abdominal aortic calcification detection from dxa images. In: International Conference on Medical Image Computing and Computer-Assisted Intervention. pp. 14--25. Springer (2024)
+
+\bibitem{kashefi2023explainability}
+Kashefi, R., Barekatain, L., Sabokrou, M., Aghaeipoor, F.: Explainability of vision transformers: A comprehensive review and new perspectives. arXiv preprint arXiv:2311.06786  (2023)
+
+\bibitem{donteu2023sparse}
+Kerol, D., Ilanchezian, I., K{\"u}hlewein, L., Faber, H., Baumgartner, C.F., Bah, B., Berens, P., Koch, L.M.: Sparse activations for interpretable disease grading. In: Medical Imaging with Deep Learning (2023)
+
+\bibitem{kim2025systematic}
+Kim, J.W., Khan, A.U., Banerjee, I.: Systematic review of hybrid vision transformer architectures for radiological image analysis. Journal of Imaging Informatics in Medicine pp. 1--15 (2025)
+
+\bibitem{liu2021swin}
+Liu, Z., Lin, Y., Cao, Y., Hu, H., Wei, Y., Zhang, Z., Lin, S., Guo, B.: Swin transformer: Hierarchical vision transformer using shifted windows. In: Proceedings of the IEEE/CVF international conference on computer vision. pp. 10012--10022 (2021)
+
+\bibitem{mauricio2023comparing}
+Maur{\'\i}cio, J., Domingues, I., Bernardino, J.: Comparing vision transformers and convolutional neural networks for image classification: A literature review. Applied Sciences  \textbf{13}(9), ~5521 (2023)
+
+\bibitem{nguyen2023inspecting}
+Nguyen, H.C., Lee, H., Kim, J.: Inspecting explainability of transformer models with additional statistical information. arXiv preprint arXiv:2311.11378  (2023)
+
+\bibitem{porwal2018indian}
+Porwal, P., Pachade, S., Kamble, R., Kokare, M., Deshmukh, G., Sahasrabuddhe, V., Meriaudeau, F.: Indian diabetic retinopathy image dataset (idrid): a database for diabetic retinopathy screening research. Data  \textbf{3}(3), ~25 (2018)
+
+\bibitem{rudin2019stop}
+Rudin, C.: Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead. Nature machine intelligence  \textbf{1}(5),  206--215 (2019)
+
+\bibitem{selvaraju2017grad}
+Selvaraju, R.R., Cogswell, M., Das, A., Vedantam, R., Parikh, D., Batra, D.: Grad-cam: Visual explanations from deep networks via gradient-based localization. In: Proceedings of the IEEE international conference on computer vision. pp. 618--626 (2017)
+
+\bibitem{stassin2023explainability}
+Stassin, S., Corduant, V., Mahmoudi, S.A., Siebert, X.: Explainability and evaluation of vision transformers: An in-depth experimental study. Electronics  \textbf{13}(1), ~175 (2023)
+
+\bibitem{takahashi2024comparison}
+Takahashi, S., Sakaguchi, Y., Kouno, N., Takasawa, K., Ishizu, K., Akagi, Y., Aoyama, R., Teraya, N., Bolatkan, A., Shinkai, N., et~al.: Comparison of vision transformers and convolutional neural networks in medical image analysis: A systematic review. Journal of Medical Systems  \textbf{48}(1),  1--22 (2024)
+
+\bibitem{vaswani2017attention}
+Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A.N., Kaiser, L.u., Polosukhin, I.: Attention is all you need. In: Guyon, I., Luxburg, U.V., Bengio, S., Wallach, H., Fergus, R., Vishwanathan, S., Garnett, R. (eds.) Advances in Neural Information Processing Systems. vol.~30 (2017)
+
+\bibitem{wilkinson2003proposed}
+Wilkinson, C.P., Ferris~III, F.L., Klein, R.E., Lee, P.P., Agardh, C.D., Davis, M., Dills, D., Kampik, A., Pararajasegaram, R., Verdaguer, J.T., et~al.: Proposed international clinical diabetic retinopathy and diabetic macular edema disease severity scales. Ophthalmology  \textbf{110}(9),  1677--1682 (2003)
+
+\bibitem{wu2021cvt}
+Wu, H., Xiao, B., Codella, N., Liu, M., Dai, X., Yuan, L., Zhang, L.: Cvt: Introducing convolutions to vision transformers. In: Proceedings of the IEEE/CVF international conference on computer vision. pp. 22--31 (2021)
+
+\bibitem{yeh2019fidelity}
+Yeh, C.K., Hsieh, C.Y., Suggala, A., Inouye, D.I., Ravikumar, P.K.: On the (in) fidelity and sensitivity of explanations. Advances in neural information processing systems  \textbf{32} (2019)
+
+\bibitem{zamir2022restormer}
+Zamir, S.W., Arora, A., Khan, S., Hayat, M., Khan, F.S., Yang, M.H.: Restormer: Efficient transformer for high-resolution image restoration. In: Proceedings of the IEEE/CVF conference on computer vision and pattern recognition. pp. 5728--5739 (2022)
+
+\end{thebibliography}
