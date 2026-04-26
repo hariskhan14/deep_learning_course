@@ -1,16 +1,16 @@
 
 Hybrid CNN-Transformer for Interpretable Medical Image Analysis
-Paper: https://arxiv.org/abs/2504.08481
-Code https://github.com/kdjoumessi/Self-Explainable-CNN-Transformer
+- Paper: https://arxiv.org/abs/2504.08481
+- Code https://github.com/kdjoumessi/Self-Explainable-CNN-Transformer
 
 
 TIMELINE:
 Two-week scope is realistic. A rough split:
 
-Days 1–3: Load APTOS 2019, implement CNN backbone + Transformer encoder, train baseline
-Days 4–6: Add the evidence map head, visualize and compare against Grad-CAM
-Days 7–9: Add MC Dropout to Transformer heads, measure uncertainty on low-quality samples
-Days 10–12: Ablations (backbone variants, attention heads), write up results
+- Days 1–3: Load APTOS 2019, implement CNN backbone + Transformer encoder, train baseline
+- Days 4–6: Add the evidence map head, visualize and compare against Grad-CAM
+- Days 7–9: Add MC Dropout to Transformer heads, measure uncertainty on low-quality samples
+- Days 10–12: Ablations (backbone variants, attention heads), write up results
 
 ---
 
