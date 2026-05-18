@@ -1,0 +1,54 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{djoumessi2025hybrid}
+\citation{djoumessi2025hybrid}
+\citation{flaxman2017global}
+\citation{selvaraju2017gradcam}
+\citation{ilyas2024hybrid}
+\citation{dosovitskiy2020vit}
+\citation{djoumessi2025hybrid}
+\citation{gal2016dropout}
+\citation{djoumessi2025hybrid}
+\citation{he2016deep}
+\citation{gal2016dropout}
+\@writefile{toc}{\contentsline {section}{\numberline {I}Introduction}{1}{section.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {II}Methods}{1}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-A}}Hybrid CNN--DRSA Architecture}{1}{subsection.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-B}}Bayesian Extension via MC Dropout}{1}{subsection.2.2}\protected@file@percent }
+\citation{kaggleDR2015}
+\citation{djoumessi2025hybrid}
+\citation{djoumessi2025hybrid}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Self-explainable hybrid CNN--Transformer with Dual-Resolution Self-Attention. A ResNet-50 backbone extracts features $\mathbf  {Z}$; DRSA fuses high- and low-resolution attention into $\mathbf  {W}$; a $1\times 1$ conv classifier yields per-class evidence maps $\mathbf  {A}$, spatially averaged for classification and upsampled for visualization. Figure adapted from \cite  {djoumessi2025hybrid}.}}{2}{figure.1}\protected@file@percent }
+\newlabel{fig:arch}{{1}{2}{Self-explainable hybrid CNN--Transformer with Dual-Resolution Self-Attention. A ResNet-50 backbone extracts features $\mathbf {Z}$; DRSA fuses high- and low-resolution attention into $\mathbf {W}$; a $1\times 1$ conv classifier yields per-class evidence maps $\mathbf {A}$, spatially averaged for classification and upsampled for visualization. Figure adapted from \cite {djoumessi2025hybrid}}{figure.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {III}Experimental Setup}{2}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-A}}Dataset and Preprocessing}{2}{subsection.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-B}}Training}{2}{subsection.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {IV}Results and Discussion}{2}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-A}}Predictive Performance}{2}{subsection.4.1}\protected@file@percent }
+\citation{blundell2015bbb}
+\bibcite{flaxman2017global}{1}
+\bibcite{selvaraju2017gradcam}{2}
+\bibcite{ilyas2024hybrid}{3}
+\bibcite{dosovitskiy2020vit}{4}
+\bibcite{djoumessi2025hybrid}{5}
+\bibcite{gal2016dropout}{6}
+\@writefile{lot}{\contentsline {table}{\numberline {I}{\ignorespaces Per-class test accuracy and predictive entropy. Wrong predictions exhibit $2.07\times $ higher mean entropy than correct ones.}}{3}{table.1}\protected@file@percent }
+\newlabel{tab:perclass}{{I}{3}{Per-class test accuracy and predictive entropy. Wrong predictions exhibit $2.07\times $ higher mean entropy than correct ones}{table.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Class-specific evidence maps in a single forward pass (input \textbar \ evidence map \textbar \ overlay). The correct case (a) localises on lesion-relevant regions; the failure case (b) yields diffuse evidence consistent with low confidence.}}{3}{figure.2}\protected@file@percent }
+\newlabel{fig:evidence}{{2}{3}{Class-specific evidence maps in a single forward pass (input \textbar \ evidence map \textbar \ overlay). The correct case (a) localises on lesion-relevant regions; the failure case (b) yields diffuse evidence consistent with low confidence}{figure.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-B}}Evidence Maps}{3}{subsection.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-C}}MC Dropout Uncertainty}{3}{subsection.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-D}}Limitation: Mutual Information Collapse}{3}{subsection.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {V}Conclusions}{3}{section.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{References}{3}{section*.1}\protected@file@percent }
+\bibcite{he2016deep}{7}
+\bibcite{kaggleDR2015}{8}
+\bibcite{blundell2015bbb}{9}
+\bibcite{brendel2018bagnet}{10}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Distribution of MC Dropout predictive entropy (left) and mutual information (right) for correct vs.\ wrong predictions. Wrong predictions are concentrated at higher entropy, confirming that the model's uncertainty is a reliable error signal. Mutual information collapses to near zero --- see Section~IV-D.}}{4}{figure.3}\protected@file@percent }
+\newlabel{fig:uncertainty}{{3}{4}{Distribution of MC Dropout predictive entropy (left) and mutual information (right) for correct vs.\ wrong predictions. Wrong predictions are concentrated at higher entropy, confirming that the model's uncertainty is a reliable error signal. Mutual information collapses to near zero --- see Section~IV-D}{figure.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Selective prediction: by referring the highest-entropy samples to a human reviewer, accuracy on the retained low-uncertainty samples increases monotonically. A clinically deployable safety mechanism.}}{4}{figure.4}\protected@file@percent }
+\newlabel{fig:selective}{{4}{4}{Selective prediction: by referring the highest-entropy samples to a human reviewer, accuracy on the retained low-uncertainty samples increases monotonically. A clinically deployable safety mechanism}{figure.4}{}}
+\gdef \@abspage@last{4}

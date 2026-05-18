@@ -58,7 +58,8 @@ See `kaggle_setup.md` for full setup instructions.
 - [x] CSV files filtered to remove missing images (13,531 / 1,857 / 2,750 retained)
 - [x] Smoke test passed
 
-### Base Model — BagNet-33 + DRSA (Day 1–2)
+### Base Model — ResNet50 + DRSA (Day 1–2)
+> Note: save path is named `bagnet_drsa` but the trained model is ResNet50+DRSA (default config was never overridden).
 - [x] Trained for 26 epochs (session ended at PC shutdown, best checkpoint at epoch 21)
 - [x] **Best val kappa: 0.811** (paper reports ~0.80 — we exceed it)
 - [x] **Best val accuracy: 84.8%**
@@ -239,7 +240,7 @@ def mc_dropout_inference(model, image_tensor, n_passes=20):
 
 | Model | Val Acc | Val Kappa | Notes |
 |-------|---------|-----------|-------|
-| BagNet-33 + DRSA (ours) | **84.8%** | **0.811** | Best checkpoint epoch 21 |
+| ResNet50 + DRSA (ours) | **84.8%** | **0.811** | Best checkpoint epoch 21 |
 | BagNet-33 only | — | — | Run 1 |
 | ResNet-50 only | — | — | Run 2 |
 | ViT only | — | — | Run 3 |
@@ -252,7 +253,7 @@ def mc_dropout_inference(model, image_tensor, n_passes=20):
 
 | Experiment | Key config changes |
 |---|---|
-| BagNet-33 + DRSA (base) | `network: bagnet33`, `drsa: True`, `bag_baseline: False` |
+| ResNet50 + DRSA (base) | `network: bagnet33`, `drsa: True`, `bag_baseline: False` |
 | BagNet-33 only | `bag_baseline: True`, `drsa: False` |
 | ResNet-50 only | `res_baseline: True`, `drsa: False` |
 | ResNet-50 + DRSA | `network: resnet50`, `res_baseline: False`, `drsa: True` |
